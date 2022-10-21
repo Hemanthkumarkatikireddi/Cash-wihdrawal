@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.button-container {
+  width: 45%;
+  float: left;
+  list-style: none;
+  margin: 5px auto;
+  display: inline-block;
+}
+.button {
+  width: 50%;
+  padding: 10px;
+  font-size: 8px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 100px) {
+  .button {
+    width: 60%;
+    font-size: 6px;
+  }
+  .button-container {
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 568px) {
+  .button {
+    width: 65%;
+    font-size: 10px;
+  }
+  .button-container {
+    margin: 6px 6px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button {
+    width: 90%;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 968px) {
+  .button {
+    width: 100%;
+    font-size: 12px;
+  }
+  .button-container {
+    margin: 10px 20px;
+  }
+}

@@ -1,0 +1,99 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-container {
+  background-color: #150b3e;
+  padding: 10px;
+  border-radius: 10px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}
+.account-box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.account-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon {
+  font-size: 18px;
+  padding: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  border-radius: 55px;
+}
+.name {
+  margin: 10px;
+  margin-left: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 24px;
+  color: #d4d2db;
+}
+.account-balance {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.balance-name {
+  margin: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 24px;
+  color: #585076;
+}
+.total-amount {
+  margin: 10px;
+  color: #c7d2fe;
+}
+.desc {
+  color: #585076;
+  display: flex;
+  margin-right: 20px;
+  justify-content: flex-end;
+}
+.withdraw-box {
+  padding: 20px;
+}
+.withdraw-box-description {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.withdraw-heading {
+  color: #c7d2fe;
+}
+.withdraw-desc {
+  color: #585076;
+  margin-top: 15px;
+}
+.withdraw-options-con {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+.withdraw-options {
+  width: 100%;
+  margin: 0px auto;
+  float: left;
+}
