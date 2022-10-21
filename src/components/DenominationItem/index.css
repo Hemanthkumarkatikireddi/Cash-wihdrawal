@@ -3,7 +3,7 @@
   width: 45%;
   float: left;
   list-style: none;
-  margin: 5px auto;
+  margin: 5px 2px;
   display: inline-block;
 }
 .button {
@@ -11,15 +11,18 @@
   padding: 10px;
   font-size: 8px;
   border-radius: 8px;
+  color: #c7d2fe;
+  background-color: #382f5a;
+  border: 1px solid #c7d2fe;
 }
 
 @media screen and (min-width: 100px) {
   .button {
-    width: 60%;
+    width: 50%;
     font-size: 6px;
   }
   .button-container {
-    margin: 0px;
+    margin: 5px;
   }
 }
 @media screen and (min-width: 568px) {
@@ -46,3 +49,4 @@
     margin: 10px 20px;
   }
 }
+
